@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IOTNBO - It's Okay To Not Be Okay</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">شحن مجاني لجميع مناطق المملكه للطلبات اكثر من 150 ريال</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="ابحث عن المنتجات" class="search-field">
+
+          <button class="search-submit" aria-label="search">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="IOTNBO">
+        </a>
+
+        <div class="header-actions">
+
+          <button class="header-action-btn" aria-label="user">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button>
+
+          <button class="header-action-btn" aria-label="favourite item">
+            <ion-icon name="star-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+          <button class="header-action-btn" aria-label="cart item">
+            <data class="btn-text" value="0">0.00</data>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link has-after">الصفحه الرئسيه</a>
+            </li>
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">شارك قصتك</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="navbar-link has-after">الكتب</a>
+            </li>
+
+            <li>
+              <a href="#feature" class="navbar-link has-after">قصتنا</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link has-after">تواصل معنا</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="IOTNBO">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Offer</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/hero-banner-1.png')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    شارك قصتك  <br>
+                مع العالم
+                  </h1>
+
+                  <p class="hero-text">
+                    اكتب قصتك,اشتر كتاب ,شارك قصتك.
+                  </p>
+
+                  <p class="price">تبدا من 39 ريال</p>
+
+                  <a href="#" class="btn btn-primary">تسوق الان</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/hero-banner-2.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Reveal The <br>
+                    Beauty of Skin
+                  </h1>
+
+                  <p class="hero-text">
+                    Made using clean, non-toxic ingredients, our products are designed for everyone.
+                  </p>
+
+                  <p class="price">Starting at 7.99</p>
+
+                  <a href="#" class="btn btn-primary">Shop Now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/hero-banner-3.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Reveal The <br>
+                    Beauty of Skin
+                  </h1>
+
+                  <p class="hero-text">
+                    Made using clean, non-toxic ingredients, our products are designed for everyone.
+                  </p>
+
+                  <p class="price">Starting at 7.99</p>
+
+                  <a href="#" class="btn btn-primary">Shop Now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">وصل الان</h2>
+
+                <p class="card-text">تبدا من 45</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">تسوق الان</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-1.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">مالجديد؟</h2>
+
+                <p class="card-text">تفحص قصصنا الجديده</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">اكتشفه الان </span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-2.png')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">اشتر 1 واحصل على 1</h2>
+
+                <p class="card-text">تبدا من 50</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">وصل الان</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-3.png')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">افضل مبيعاتنا</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">تسوق جميع المنتجات</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-01.WEBP" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">75.00</del>
+
+                    <span class="span">45.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">مستشارك النفسي من الأوهام الى الطمأنينة ، د. بسام البطحي</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-02.PNG" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">39.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">أسباب للبقاء حيا ، مات هينغ</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-03.PNG" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">45.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title"> The noonday Demon by Andrew
+                      Solomon
+                      </a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-04.PNG" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">80.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">عقل غير هادئ ، كاي ردفيلد جاميسون</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-05.WEBP" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">79.00</del>
+
+                    <span class="span">49.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">فهم الامراض النفسيه منطقيا ، دين برنيت</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-06.PNG" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">63.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">الحزن الخبيث ، لويس ولبرت</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">اقل من 50 </h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">تسوق جميع المنتجات</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-07.PNG" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">75.00</del>
+
+                    <span class="span">45.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">الحزن الخبيث ، لويس ولبرت</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-08.WEBP" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">36.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">الاكتئاب اسبابه وطرق علاجه ، الدكتور عادل صادق
+                    </a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-09.WEBP" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">40.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">
+                      كتاب ابق قويا (٣٦٥) يوما في السنه ، ديمي لوفاتو
+                      </a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-10.PNG" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">48.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">اكنب قصتك الخاصة</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-01.WEBP" width="540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <span class="badge" aria-label="20% off">-20%</span>
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <del class="del">75.00</del>
+
+                    <span class="span">45.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">مستشارك النفسي من الأوهام الى الطمأنينة ، د. بسام البطحي</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="shop-card">
+
+                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                  <img src="./assets/images/product-02.PNG width=540" height="720" loading="lazy"
+                    alt="" class="img-cover">
+
+                  <div class="card-actions">
+
+                    <button class="action-btn" aria-label="add to cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to whishlist">
+                      <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="price">
+                    <span class="span">49.00</span>
+                  </div>
+
+                  <h3>
+                    <a href="#" class="card-title">أسباب للبقاء حيا ، مات هينغ</a>
+                  </h3>
+
+                  <div class="card-rating">
+
+                    <div class="rating-wrapper" aria-label="5 start rating">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <p class="rating-text">5170 reviews</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title"> لماذا تستخدم متجرنا؟</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-1.jpg" width="204" height="236" loading="lazy" alt="Community"
+                  class="card-icon">
+
+                <h3 class="h3 card-title">المجتمع</h3>
+
+                <p class="card-text">
+                  هدفنا بناء مجتمع يدعم الصحه النفسيه ويتعامل مع الامراض النفسيه كاي امراض اخرى
+                  ويساعدون بعضهم البعض في التخلص من هاذه الامراض 
+                  
+      
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-2.jpg" width="204" height="236" loading="lazy"
+                  alt="Mental Health Awareness" class="card-icon">
+
+                <h3 class="h3 card-title">الصحه النفسيه</h3>
+
+                <p class="card-text">
+                 
+نريد ان نقدم مفهوم الصحه النفسيه من خلال مشاركة تجارب البعض ليعلم المجتمع 
+ان الامراض النفسيه يمكن التشافي منها 
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-3.jpg" width="204" height="236" loading="lazy"
+                  alt="Share Your Story" class="card-icon">
+
+                  <h3 class="h3 card-title">شارك قصتك الخاصه </h3>
+
+                <p class="card-text">
+                  مشاركة قصتك الشخصيه عن الامراض النفسيه او الصدمات او اي تجربة غيرت حياتك 
+                  يمكن ان تعزز مشاعر القوه المرونه والمثابره ,كما انها احدى ادوات مكافحة الخجل من التحدث 
+                  عن الامراض النفسيه 
+        
+              
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        
+
+        <div class="footer-list">
+
+          
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+         
+
+          <ul class="social-list">
+            
+            <a>
+              <p class="h3 card-title">للطلب الرجاء التواصل معنا على حسابات المتجر</p>
+            </a>
+          
+            
+
+            <li>
+              <a href="https://x.com/its_okay5?s=11&t=_6K8FKn_aFofZTvbsAvMbg" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.tiktok.com/@it.s_okay7?_t=8gJN6Ua712w&_r=1" class="social-link">
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com/it.okay_?igshid=MzRlODBiNWFlZA==" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="77" height="16" loading="lazy" class="w-77" alt="IOTNBO">
+        </a>
+
+        
+       
+        <img src="./assets/images/jv.jpeg" width="100" height="100" alt="" class="w-170">
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
